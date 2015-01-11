@@ -3,8 +3,8 @@ package di4.gpf.pvcinterface;
 public class Ville {
 	private int indice;
 	private String nom;
-	private float coordX;
-	private float coordY;
+	private double coordX;
+	private double coordY;
 
 	public Ville(int indice, String nom, float coordX, float coordY) {
 		super();
@@ -14,13 +14,13 @@ public class Ville {
 		this.coordY = coordY;
 	}
 	
-	public float getCoordX() {
+	public double getCoordX() {
 		return coordX;
 	}
 	public void setCoordX(float coordX) {
 		this.coordX = coordX;
 	}
-	public float getCoordY() {
+	public double getCoordY() {
 		return coordY;
 	}
 	public void setCoordY(float coordY) {

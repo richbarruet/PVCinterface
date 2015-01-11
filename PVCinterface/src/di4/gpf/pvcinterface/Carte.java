@@ -8,15 +8,15 @@ import java.util.ListIterator;
 import android.R.drawable;
 
 public class Carte {
-	private float tailleX;
-	private float tailleY;
-	private float echelle;
+	private double tailleX;
+	private double tailleY;
+	private double echelle;
 	private List<Ville> villes;
 	private int bgId;
 	
 	
 
-	public Carte(float echelle) {
+	public Carte(double echelle) {
 		super();
 		this.echelle = 1/1;
 		bgId=R.drawable.france;
@@ -28,15 +28,17 @@ public class Carte {
 		
 	}
 
+	public double dist(Ville vA, Ville vB){
+		return Math.sqrt(Math.hypot(vA.getCoordX(), vB.getCoordY()));
+	}
 
-
-	public float getEchelle() {
+	public double getEchelle() {
 		return echelle;
 	}
 
 
 
-	public void setEchelle(float echelle) {
+	public void setEchelle(double echelle) {
 		this.echelle = echelle;
 	}
 
