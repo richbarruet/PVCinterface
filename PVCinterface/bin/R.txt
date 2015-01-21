@@ -4,6 +4,7 @@ int anim abc_slide_in_bottom 0x7f040002
 int anim abc_slide_in_top 0x7f040003
 int anim abc_slide_out_bottom 0x7f040004
 int anim abc_slide_out_top 0x7f040005
+int array VilleListe 0x7f0c0000
 int attr actionBarDivider 0x7f01000f
 int attr actionBarItemBackground 0x7f010010
 int attr actionBarSize 0x7f01000e
@@ -247,10 +248,11 @@ int id action_context_bar 0x7f09001d
 int id action_menu_divider 0x7f090002
 int id action_menu_presenter 0x7f090003
 int id action_mode_close_button 0x7f090024
-int id action_settings 0x7f09003c
+int id action_settings 0x7f09003e
 int id activity_chooser_view_content 0x7f090025
 int id always 0x7f09000f
 int id beginning 0x7f090016
+int id carte 0x7f09003c
 int id checkbox 0x7f09002d
 int id collapseActionView 0x7f090010
 int id default_activity_button 0x7f090028
@@ -268,6 +270,7 @@ int id ifRoom 0x7f090011
 int id image 0x7f090027
 int id listMode 0x7f090006
 int id list_item 0x7f090029
+int id mapBG 0x7f09003d
 int id middle 0x7f090018
 int id never 0x7f090012
 int id none 0x7f090019
@@ -323,8 +326,9 @@ int layout abc_search_dropdown_item_icons_2line 0x7f030015
 int layout abc_search_view 0x7f030016
 int layout abc_simple_decor 0x7f030017
 int layout activity_pvcinterface 0x7f030018
-int layout support_simple_spinner_dropdown_item 0x7f030019
-int menu pvcinterface 0x7f0c0000
+int layout carte_activity 0x7f030019
+int layout support_simple_spinner_dropdown_item 0x7f03001a
+int menu pvcinterface 0x7f0d0000
 int string abc_action_bar_home_description 0x7f0a0001
 int string abc_action_bar_up_description 0x7f0a0002
 int string abc_action_menu_overflow_description 0x7f0a0003
@@ -341,6 +345,7 @@ int string abc_shareactionprovider_share_with_application 0x7f0a000b
 int string action_settings 0x7f0a000f
 int string app_name 0x7f0a000d
 int string hello_world 0x7f0a000e
+int string mapBG 0x7f0a0010
 int style AppBaseTheme 0x7f0b008b
 int style AppTheme 0x7f0b008c
 int style TextAppearance_AppCompat_Base_CompactMenu_Dialog 0x7f0b0063

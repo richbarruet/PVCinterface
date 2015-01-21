@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <carteNom>France</carteNom>
+    <ville>
+        <villeNom>Ville1</villeNom>
+        <coordX>50</coordX>
+        <coordY>50</coordY>
+    </ville>
+    <ville>
+        <villeNom>Ville2</villeNom>
+        <coordX>100</coordX>
+        <coordY>100</coordY>
+    </ville>
+    <ville>
+        <villeNom>Ville3</villeNom>
+        <coordX>150</coordX>
+        <coordY>50</coordY>
+    </ville>
+    <ville>
+        <villeNom>Ville4</villeNom>
+        <coordX>150</coordX>
+        <coordY>150</coordY>
+    </ville>
